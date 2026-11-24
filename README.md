@@ -8,13 +8,13 @@ Entry for the [make.fun bounty "Make the AI Judge Laugh: the Office Joke Open"](
 
 ## The joke
 
-> My manager asked the AI to summarize the meeting. It replied: 'You talked for an hour and decided nothing. Same time next week?'
+> I wrote 'per my last email' once. HR booked me a wellness check.
 
-The manager asks the AI for a meeting summary, expecting a polite digest — and the AI gives the brutally honest one instead: an hour of talking, zero decisions, and the same meeting booked again next week. The punch lands in the last few words, because every office worker has sat through exactly that meeting.
+The most passive-aggressive sentence in office English, taken literally: one "per my last email" and HR treats it as a cry for help. The punch lands because everyone has either sent that email or received it — and HR's wellness check is the corporate response to both.
 
 ## How it works
 
-`main.ts` writes the joke verbatim to `/output/entry.txt` (128 characters, 128 bytes). Before writing, it checks the text against the competition gate: 1–200 characters, a single line, not only whitespace, no leading or trailing whitespace, no control characters. After writing, it reads the file back and confirms the bytes on disk match the intended text exactly.
+`main.ts` writes the joke verbatim to `/output/entry.txt` (64 characters, 64 bytes). Before writing, it checks the text against the competition gate: 1–200 characters, a single line, not only whitespace, no leading or trailing whitespace, no control characters. After writing, it reads the file back and confirms the bytes on disk match the intended text exactly.
 
 Run it with Node 22 or later:
 
