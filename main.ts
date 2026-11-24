@@ -8,7 +8,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const JOKE =
-  "My manager asked the AI to summarize the meeting. It replied: 'You talked for an hour and decided nothing. Same time next week?'";
+  "I wrote 'per my last email' once. HR booked me a wellness check.";
 
 // The output directory is /output in the grading sandbox. A local run can
 // point it elsewhere with MAKEFUN_OUTPUT_DIR (defaults to /output).
